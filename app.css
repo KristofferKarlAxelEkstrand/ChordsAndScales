@@ -1,0 +1,117 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+settings {
+    display: block;
+    background-color: salmon;
+    width: 100%;
+    height: 50px;
+}
+
+settings rootnote {
+    background-color: grey;
+    display: block;
+    width: 50px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+}
+
+settings beatsperminute {
+    background-color: lightgrey;
+    display: block;
+    width: 50px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+}
+
+settings scale {
+    background-color: darkgrey;
+    display: block;
+    width: 200px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+}
+
+settings scales scale {
+    background-color: darkgrey;
+    border-bottom: 1px solid grey;
+    display: block;
+    width: 200px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+settings scales scale.Exotic {
+    background-color: red;
+    border-bottom: 1px solid grey;
+    display: block;
+    width: 200px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+settings songname {
+    background-color: lightblue;
+    display: block;
+    width: 300px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+}
+
+sequencer {
+    display: block;
+    background-color: #ff3300;
+    height: 400px;
+}
+
+sequencer pattern {
+    display: block;
+    background-color: indigo;
+    height: 200px;
+}
+
+sequencer patterns {
+    display: block;
+    background-color: yellow;
+    height: 200px;
+}
+
+chords {
+    display: block;
+    background-color: green;
+    height: 200px;
+}
+
+
+menus {
+}
+
+menus scaleMenu {
+
+}
+
+menus scaleMenu scale {
+    display: block;
+    border-bottom: 1px solid grey;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+
+}
